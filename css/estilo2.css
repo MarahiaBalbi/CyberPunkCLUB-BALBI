@@ -1,0 +1,690 @@
+/*INDEX*/
+body{
+    /*imagen fondo*/
+    background: url(../paginas/img/cosito\ del\ coso.jpg) no-repeat center fixed;
+    background-size:cover; 
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    border:#555555;
+}
+/*links/menu*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*medidas header*/
+header{
+    display: flex;
+    /*flex-direction: column;*/
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 60px;
+    margin-right: 0px;
+}
+
+
+
+/*navegadores-tamaños y distansias*/
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+    text-align: none;
+
+
+}
+
+
+/*navegadores color fondo*/
+nav a:hover{
+    color:rgb(192, 101, 214);
+}
+
+/*.ham{
+    display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.ham span{
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}*/
+
+
+
+/*posicion textos*/
+.contenedorINDEX{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+}
+.CentrarTextoUP{
+    text-align:left;
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 60px;
+
+}
+
+.CentrarTextoMIDDLE{
+    text-align: center;
+    color: greenyellow;
+    margin-top: 300px;
+    font-family: 'Splash', cursive;
+    letter-spacing: 3px;
+   
+}
+
+.tituloINDEX{
+    font-size: 100px;
+    margin: 0%;
+}
+.TextoMovil{
+    color: rgb(125, 55, 255);
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 0%;
+}
+
+.nombre-empresa{
+    font-family: 'Splash', cursive;
+    color: greenyellow;
+    letter-spacing: 3px;
+    transform: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MERCH*/
+
+.FondoMerch{
+    background: black;
+}
+
+
+.contenedorMERCH{
+    display: grid;
+    grid-template-columns:auto; 
+    margin: 10px;
+    /*display: flex;
+    margin: 10px;
+    flex-direction: column;*/
+
+}
+.Texto1Merch{
+    text-align:left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.Texto2Merch{
+    text-align: end;
+    color: rgb(152, 73, 255);
+    margin-right: 10px;
+}
+
+
+.bordes{
+    border-radius: 10px;
+    width:236px;
+    height:295px;
+}
+
+.RedesSociales{
+    margin-left: 10px;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NFTs*/
+
+.FondoNFTs{
+    background-image: linear-gradient(black, greenyellow);
+    /*background-image: linear-gradient(purple,rgb(177, 235, 61));*/
+    
+    
+}
+
+.Texto1NFTs{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 60px;
+}
+
+.Texto2NFTs{
+    text-align:center;
+    color:rgb(180, 100, 255);
+    margin-left:0px;
+    font-size: 40px;
+
+}
+
+.contenedorNFTs{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    
+}
+
+.contenedorPersonajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+
+
+.PersonajesNFTs{
+    height: 225px ;
+    box-shadow:0 0 20px 0  rgba(159, 255, 104, 0.8);
+    border-radius: 10px;
+    padding: 0px;
+    width:150px; 
+
+}
+
+.Texto3NFTs{
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    margin-right: 20px;
+   
+}
+.titulo4{
+    color:rgb(180, 100, 255);
+    font-size: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*QUIENES SOMOS*/
+
+.fondoQUIENESSOMOS{
+   /* background-image: url(../paginas/img/cosaaa3.jpg);*/
+   background-image: url(../paginas/img/photo-1533174072545-7a4b6ad7a6c3.avif);
+   background-size:auto;
+   background-repeat: no-repeat;
+   background-color: black;
+    
+}
+.contenedorQS{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.titulo1QS{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 0%;
+    font-size: 35px;
+}
+
+.titulo2QS{
+    text-align:center;
+    color:rgb(60, 255, 0);
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.texto1QS{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 0%;
+}
+
+.Parrafo1QS{
+    text-align:center;
+    color: rgb(153, 255, 0);
+    font-size: 29px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.titulo3QS{
+    text-align: center;
+    color: rgb(211, 146, 255);
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*REGISTRATE*/
+
+ .FondoRegistro{
+    background: url(../paginas/img/1e061884492503.5d5e7527614cf.png);
+    background-size:1274px 890px;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+    
+
+   
+ }
+
+ .REGISTROS{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .h1REGISTROS{
+    text-align: center;
+    font-weight: 700;
+ }
+
+ Form{
+    background: rgb(255, 255, 255);
+    padding: 40px 0;
+    box-shadow: 0 0 10px 0 rgba(159, 255, 104, 0.8);
+    border-radius: 10px;
+ }
+
+ .form{
+    width: 100%;
+    margin:auto;
+    
+ }
+
+ form .grupo{
+    position: relative;
+    margin: 45px;
+
+ }
+
+input{
+    background: none;
+    color:black;
+    font-size:18px;
+    padding: 10px 10px 10px 5px;
+    display:block;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid color rgb(156, 8, 255);
+    
+}
+
+
+input:focus{
+    outline-color: white;
+    color:#555555
+}
+
+label{
+    color:lightgray;
+    font-size: 16px;
+    position:absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    color: rgb(162, 0, 255);
+}
+.barra{
+    position:relative;
+    display: block;
+    width: 100%;
+}
+
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, rgb(188, 42, 255), greenyellow);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+.enviar{
+    font-family: 'roboto';
+    background: linear-gradient(to right, rgb(188, 42, 255), greenyellow);
+    border:none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PROXIMOS EVENTOS*/
+
+.FondoProximosEventos{
+    /*background: black;*/
+    background-image: url(../paginas/img/cosaaaaaaaaaaa.jpg);
+    background-size:auto; 
+    background-position: 100%;
+}
+.contenedorPE{
+    display: grid;
+    grid-template-columns: 60% 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+
+.h1PE{
+    font-family: 'Splash', cursive;
+    letter-spacing: 6px;
+    text-align:center;
+    color:rgb(162, 0, 255);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.h2PE{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0px;
+    
+    text-align: center;
+    color: greenyellow;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.Parrafo1PE{
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.h3PE{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.Parrafo2PE{
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+/*.contenedorEVENTOSINTERNACIONALES{
+    margin-left: 5px;
+}*/
+
+.h4PE{
+    font-family: 'Splash', cursive;
+    letter-spacing: 2px;
+    text-align:center;
+    color:rgb(162, 0, 255);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.h5PE{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+
+.Parrafo3PE{
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+.h6PE{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: greenyellow;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.Parrafo4PE{
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    
+}
+
+
+.h7PE{
+    color:rgb(205, 130, 255);
+    font-size: 40px;
+}
+.contenedorPoliticas{
+    display: grid;
+    grid-template-columns: 60%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+.PoliticaEventos{
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.comentario{
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.boludez{
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+
+
+/*RESPONSIVE*/
+@media (max-width:576px){
+    /*Estilos Generales*/
+    header{
+        flex-direction: column;
+        padding: 5px; 
+    }
+    nav a{
+        padding-right: 6px;
+        
+    }
+
+    /*INDEX*/
+    .CentrarTextoUP{
+        font-size: 50px;
+    }
+    .CentrarTextoMIDDLE{
+        margin-top: 350px;
+    }
+    .tituloINDEX{
+        font-size: 80px;
+        letter-spacing: 10px;
+        }
+    
+
+    /*"Quienes Somos?" se queda asi*/
+
+
+    /*Proximos Eventos*/
+    .contenedorPE{
+        grid-template-columns: auto;
+        
+    }
+    .contenedorEVENTOS{
+        height: 2400px;
+        width: 515px;
+    
+    } 
+    .h4PE{
+        letter-spacing: 0px;
+        font-size: 35px;
+
+    }
+    .boludez{
+        font-size: 22px;
+        
+    }
+
+    .contenedorPoliticas{
+        grid-template-columns: auto;
+    }
+
+    /*NFT's*/
+
+    .contenedorNFTs{
+        grid-template-columns: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contenedorPersonajes{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0%;
+        margin-left: 6px;
+    }
+    .Texto3NFTs{
+        margin: 0%;
+        font-size: 30px;
+    }
+    .titulo4{
+        font-size: 50px;
+        
+    }
+
+
+    /*MERCH*/
+    .contenedorMERCH{
+        justify-items: center;
+    }
+    .ImagenesMerch{
+        width: 478px;
+    }
+
+
+    /*REGISTROS*/
+    .form{
+        width: 80%;
+    }
+
+}
+
+
