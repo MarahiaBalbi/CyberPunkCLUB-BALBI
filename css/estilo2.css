@@ -47,7 +47,7 @@ nav a{
 
 /*navegadores color fondo*/
 nav a:hover{
-    color:rgb(192, 101, 214);
+    color:rgb(198, 107, 221);
 }
 
 /*.ham{
@@ -162,8 +162,12 @@ nav a:hover{
     border-radius: 10px;
     width:236px;
     height:295px;
+    transform: 1s;
 }
-
+.bordes:hover{
+    width: 240px;
+    height: 300px;
+}
 .RedesSociales{
     margin-left: 10px;
     height: 5px;
@@ -185,8 +189,8 @@ nav a:hover{
 /*NFTs*/
 
 .FondoNFTs{
-    background-image: linear-gradient(black, greenyellow);
-    /*background-image: linear-gradient(purple,rgb(177, 235, 61));*/
+   /*background-image: linear-gradient(black, greenyellow);*/
+    background-image: linear-gradient(purple,rgb(177, 235, 61));
     
     
 }
@@ -230,9 +234,12 @@ nav a:hover{
     border-radius: 10px;
     padding: 0px;
     width:150px; 
+    transform: 10s;
 
 }
-
+.PersonajesNFTs:hover{
+   box-shadow: 0 0 50px 0 greenyellow;
+}
 .Texto3NFTs{
     color: white;
     font-size: 60px;
