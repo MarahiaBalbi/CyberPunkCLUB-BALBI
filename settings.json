@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Dobri Next -A00- Black",
+    "files.autoSave": "afterDelay",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "liveSassCompile.settings.formats": [
+
+    
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+       
+    ]
+}

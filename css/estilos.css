@@ -312,12 +312,11 @@ body {
   height: 292px;
   width: 234px;
   transform: 1s;
-  margin: 2px;
 }
 
 .bordes:hover {
-  height: 300px;
   width: 240px;
+  height: 300px;
 }
 
 .RedesSociales {
@@ -445,7 +444,7 @@ input:focus ~ .barra::before {
     font-size: 50px;
   }
   .CentrarTextoMIDDLE {
-    margin-top: 350px;
+    margin-top: 150px;
   }
   .tituloINDEX {
     font-size: 80px;
@@ -454,7 +453,7 @@ input:focus ~ .barra::before {
   /*"Quienes Somos?" se queda asi*/
   /*Proximos Eventos*/
   .contenedorPE {
-    grid-template-columns: auto;
+    height: 2500px;
   }
   .contenedorEVENTOS {
     height: 2400px;
@@ -473,11 +472,11 @@ input:focus ~ .barra::before {
   /*NFT's*/
   .contenedorNFTs {
     grid-template-columns: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
   }
   .contenedorPersonajes {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0%;
     margin-left: 6px;
   }
@@ -498,6 +497,9 @@ input:focus ~ .barra::before {
   /*REGISTROS*/
   .form {
     width: 80%;
+  }
+  .FondoRegistro {
+    background-color: black;
   }
 }
 

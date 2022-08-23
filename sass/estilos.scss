@@ -374,10 +374,10 @@ body{
     border-radius: 10px;
     @include sizes(234px, 292px);
     transform: 1s;
-    margin:2px
 }
 .bordes:hover{
-    @include sizes(240px, 300px);
+    width: 240px;
+    height: 300px;
 }
 .RedesSociales{
     margin-left: 10px;
@@ -522,7 +522,7 @@ input:focus~.barra::before{
         font-size: 50px;
     }
     .CentrarTextoMIDDLE{
-        margin-top: 350px;
+        margin-top: 150px;
     }
     .tituloINDEX{
         font-size: 80px;
@@ -535,7 +535,7 @@ input:focus~.barra::before{
 
     /*Proximos Eventos*/
     .contenedorPE{
-        grid-template-columns: auto;
+        height: 2500px;
         
     }
     .contenedorEVENTOS{
@@ -561,13 +561,15 @@ input:focus~.barra::before{
 
     .contenedorNFTs{
         grid-template-columns: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 30px;
+        margin-right: 5px;
+        
     }
     .contenedorPersonajes{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         margin: 0%;
         margin-left: 6px;
+        
     }
     .Texto3NFTs{
         margin: 0%;
@@ -587,10 +589,11 @@ input:focus~.barra::before{
         width: 478px;
     }
 
-
     /*REGISTROS*/
     .form{
         width: 80%;
     }
-
+    .FondoRegistro{
+        background-color: $color-negro;
+    }
 }
