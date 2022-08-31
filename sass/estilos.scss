@@ -368,8 +368,9 @@ body{
     color:$color-violeta;
     margin-right: 10px;
 }
-
-
+.ImagenesMerch{
+    margin-left: 13px;
+}
 .bordes{
     border-radius: 10px;
     @include sizes(234px, 292px);
@@ -527,7 +528,7 @@ input:focus~.barra::before{
     .tituloINDEX{
         font-size: 80px;
         letter-spacing: 10px;
-        }
+    }
     
 
     /*"Quienes Somos?" se queda asi*/
